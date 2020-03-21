@@ -1,163 +1,154 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Dao Ngoc Hieu",
+    "occupation":"Computer Science Undergraduate",
+    "description":"Interested in Computer Vision and Robotics",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I am a Computer Science student at the National University of Singapore. I'm also a member of The Horner 5.0 - a part of the Bumblebee Organisation - as a Computer Vision engineer. Additionally, I have some experience with Ruby on Rails and ReactJS.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "dnh2810@comp.nus.edu.sg",
+    "phone": "(+65) 98815584",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Prince George's Park",
+      "city":"Singapore,",
+      "state":"Singapore",
+      "zip": "118429"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/hieu-dao-ngoc-787554191/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/daongochieu2810",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"National University of Singapore",
+        "degree":"Bachelor of Computing in Computer Science",
+        "graduated":"Aug 2019 - May 2023",
+        "description":"CAP: 5.0/5.0. Expect Honours with Highest Distinction"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"High School for Gifted Students - Hanoi National University, University of Education",
+        "degree":"Informatics",
+        "graduated":"Sep 2016 - May 2019",
+        "description":"Achieved a total score of 27.8/30 on the National University Entrance Exam"
+      }
+    ],
+    "achievments":[
+      {
+        "name":"Award of Nancy Tan Siew Lan Bursary",
+        "title":"Singapore",
+        "years":"Aug 2019",
+        "description":"Awarded for good academic results"
+      },
+      {
+        "name":"Second Prize in Science Olympiad at State Level",
+        "title":"Vietnam",
+        "years":"Nov 2014",
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"The Hornet 5.0",
+        "title":"Computer Vision Engineer",
+        "years":"Aug 2019 - Present",
+        "description":"Create programs for calculating direction and velocity of underwater vehicles used in competitions such as SAUVC, RoboSub and RoboX."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"AdviseLah!",
+        "title":"English Language Tutor",
+        "years":"Aug 2019 - Present",
+        "description":"Developed schedules for 6 fellow tutors 3 hours per week and summarized student progress reports. Clarified questions concerning University Entrance Exam and assisted Vietnamese students throughout application and learning process for NUS’s University Entrance Exam."
+      }
+    ],
+    "projects":[
+      {
+        "name":"I'm the Best Coder, Shopee",
+        "title":"Team Freshie Frenzy",
+        "years":"Oct 2019",
+        "description":"Ranked 24/210. The first 50 teams are visible on the leaderboard. Implemented a program written in Python to detect frauds in selling posts. These frauds include fake reviews and descriptions.",
+        "link": "https://www.kaggle.com/c/ungrd-rd2-auo/leaderboard"
+      },
+      {
+        "name":"Hack&Roll 2020, NUS Hackers",
+        "title":"Team EliteVision",
+        "years":"Jan 2020",
+        "description":"Created a program that analysed CCTV footage to monitor traffic condition and detect illegal vehicles. The application also provides heatmap indicating places with dense amount of traffic and illegal vehicles.",
+        "link": "https://github.com/daongochieu2810/hackRoll2020"
+      },
+      {
+        "name":"Build On, Singapore!, AWS Hackathon",
+        "title":"YeeHaw",
+        "years":"Sep 2019",
+        "description":"Qualified as a finalist team. Showed innovative ideas to solve the crowded bus problem in NUS. By using an application that formulate routes for students based on their schedule together with efficiently assign buses to crowded locations, the average waiting time for buses is significantly reduced.",
+        "link": ""
+      }
+      ,
+      {
+        "name":"ToDo List Web Application",
+        "title":"Personal Project",
+        "years":"Dec 2019",
+        "description":"A full CRUD web application built in ReactJS and Ruby on Rails, hosted by Heroku. Help users efficiently schedule jobs by providing fast search feature, color scheme based on importance and calendar.",
+        "link": "https://daongochieutodo.herokuapp.com/"
       }
     ],
     "skills":[
       {
-        "name":"Git",
+        "name":"Ruby on Rails",
+        "level":"50%"
+      },
+      {
+        "name":"ReactJS",
         "level":"60%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"OpenCV",
+        "level":"70%"
       },
       {
-        "name":"ReactJs",
+        "name":"ROS",
         "level":"50%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name":"C/C++",
+        "level":"75%"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name":"Java",
+        "level":"70%"
       },
       {
-        "name":"VueJs",
+        "name":"Python",
         "level":"50%"
+      }
+    ],
+    "soft":[
+      {
+        "name":"Language",
+        "description":"English (8.0 IELTS), Vietnamese (Native)."
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"Music",
+        "description":"Guitarist for the Vietnam Community in NUS, performed in various events."
       }
     ]
   },
-  "portfolio":{
-    "projects": [
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
+
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"Failure is an option here. If things are not failing, you are not innovating enough",
+        "user":"Elon Musk"
       }
     ]
   }

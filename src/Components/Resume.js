@@ -16,6 +16,32 @@ class Resume extends Component {
             <p>{work.description}</p>
         </div>
       })
+      var projects = this.props.data.projects.map(function(project){
+        return <div key={project.name}><h3>{project.name}</h3>
+            <p className="info">{project.title}<span>&bull;</span> <em className="date">{project.years}</em></p>
+            <p>{project.description}</p>
+            {project.name=="I'm the Best Coder, Shopee" ? <a href={project.link}>Link to Leader Board</a>
+            : null}
+            {project.name=="Hack&Roll 2020, NUS Hackers" ? <a href={project.link}>Demo</a>
+            : null}
+            {project.name=="ToDo List Web Application" ? <a href={project.link}>Link to Website</a>
+            : null}
+      
+            <br></br>
+            <br></br>
+        </div>
+      })
+      var soft = this.props.data.soft.map(function(s){
+        return <div key={s.name}><h3>{s.name}</h3>
+            <p>{s.description}</p>
+        </div>
+      })
+      var achievments = this.props.data.achievments.map(function(achievment){
+        return <div key={achievment.name}><h3>{achievment.name}</h3>
+            <p className="info">{achievment.title}<span>&bull;</span> <em className="date">{achievment.years}</em></p>
+            <p>{achievment.description}</p>
+        </div>
+      })
       var skills = this.props.data.skills.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
@@ -38,7 +64,17 @@ class Resume extends Component {
             </div>
          </div>
       </div>
+      
+      <div className="row work">
 
+        <div className="three columns header-col">
+          <h1><span>Achievments</span></h1>
+        </div>
+
+        <div className="nine columns main-col">
+        {achievments}
+        </div>
+        </div>
 
       <div className="row work">
 
@@ -71,6 +107,27 @@ class Resume extends Component {
 				</div>
 			</div>
       </div>
+      <div className="row work">
+
+         <div className="three columns header-col">
+            <h1><span>Projects</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+          {projects}
+        </div>
+    </div>
+    <div className="row work">
+
+         <div className="three columns header-col">
+            <h1><span>Other Skills</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+          {soft}
+        </div>
+    </div>
+
    </section>
     );
   }
