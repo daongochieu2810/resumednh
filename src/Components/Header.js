@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Header extends Component {
   render() {
-    this.props.data = JSON.parse(require('../../public/resumeData.json'))
+    this.props.data = JSON.parse(require('../resumeData.json'))
     if (this.props.data) {
       var name = this.props.data.name;
       var occupation = this.props.data.occupation;

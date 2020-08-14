@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Resume extends Component {
   render() {
-    this.props.data = JSON.parse(require('../../public/resumeData.json'))
+    this.props.data = JSON.parse(require('../resumeData.json'))
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function (education) {
