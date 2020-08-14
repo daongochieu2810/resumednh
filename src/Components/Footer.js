@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Footer extends Component {
   render() {
-    this.props.data = JSON.parse(require('../resumeData.json'))
+    //this.props.data = JSON.parse(require('../resumeData.json'))
     if(this.props.data){
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
