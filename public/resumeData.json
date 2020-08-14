@@ -2,9 +2,9 @@
   "main": {
     "name":"Dao Ngoc Hieu",
     "occupation":"Computer Science Undergraduate",
-    "description":"Interested in Computer Vision and Robotics",
+    "description":"Interested in Software Development and Machine Learning",
     "image":"profilepic.jpg",
-    "bio":"I am a Computer Science student at the National University of Singapore. I'm also a member of The Horner 5.0 - a part of the Bumblebee Organisation - as a Computer Vision engineer. Additionally, I have some experience with Ruby on Rails and ReactJS.",
+    "bio":"I am a Computer Science student at the National University of Singapore. I am also a software developer with experience in building websites and mobile applications. Additionally, I am working as a student tutor for School of Computing, NUS.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "dnh2810@comp.nus.edu.sg",
     "phone": "(+65) 98815584",
@@ -34,7 +34,7 @@
         "school":"National University of Singapore",
         "degree":"Bachelor of Computing in Computer Science",
         "graduated":"Aug 2019 - May 2023",
-        "description":"CAP: 5.0/5.0. Expect Honours with Highest Distinction"
+        "description":"CAP: 4.86/5.0. Expect Honours with Highest Distinction"
       },
       {
         "school":"High School for Gifted Students - Hanoi National University, University of Education",
@@ -61,14 +61,20 @@
       {
         "company":"The Hornet 5.0",
         "title":"Computer Vision Engineer",
-        "years":"Aug 2019 - Present",
+        "years":"Aug 2019 - May 2020",
         "description":"Create programs for calculating direction and velocity of underwater vehicles used in competitions such as SAUVC, RoboSub and RoboX."
       },
       {
         "company":"AdviseLah!",
         "title":"English Language Tutor",
-        "years":"Aug 2019 - Present",
+        "years":"Aug 2019 - July 2020",
         "description":"Developed schedules for 6 fellow tutors 3 hours per week and summarized student progress reports. Clarified questions concerning University Entrance Exam and assisted Vietnamese students throughout application and learning process for NUS’s University Entrance Exam."
+      },
+      {
+        "company":"Student Tutor, School of Computing, NUS",
+        "title":"Student Tutor for CS1010 Programming Methodology",
+        "years":"Aug 2020 - December 2020",
+        "description":"Carried out labs and tutorials, graded assignments as well as provided weekly consultations for students taking CS1010."
       }
     ],
     "projects":[
@@ -100,20 +106,42 @@
         "years":"Dec 2019",
         "description":"A full CRUD web application built in ReactJS and Ruby on Rails, hosted by Heroku. Help users efficiently schedule jobs by providing fast search feature, color scheme based on importance and calendar.",
         "link": "https://daongochieutodo.herokuapp.com/"
+      } ,
+      {
+        "name":"NUSocial Android Application",
+        "title":"Orbital 2020, School of Computing, NUS",
+        "years":"May 2020 - Aug 2020",
+        "description": "An Artemis-level project built under the Orbital progamme. It serves as a platform for academic and social life of NUS students with features such as Buddy Matching, Location-based Broadcasting and other social media features (posting, messaging). The app comes with a web admin for communities' admins to monitor activities.",
+        "link": "https://drive.google.com/file/d/1-kyqT-T4XP501JHiTm6yxbjZozecLtSQ/view?usp=sharing"
+      },
+      {
+        "name":"3D Geometry Mobile Application (cross-platform)",
+        "title":"Personal Project",
+        "years":"Aug 2020 - Present",
+        "description": "A visualization tool for 3D geometry and modeling. The app allows users to create various shapes such as box, cone, sphere, octahedron, prism as well as custom shapes by connecting points. Users can also save created shapes and sync it with their online account. This app is built using Three.js and React Native.",
+        "link": "https://github.com/daongochieu2810/geometry_3d"
       }
     ],
     "skills":[
       {
-        "name":"Ruby on Rails",
-        "level":"50%"
+        "name":"Firebase",
+        "level":"70%"
       },
       {
-        "name":"ReactJS",
+        "name":"React.JS",
         "level":"60%"
       },
       {
-        "name":"OpenCV",
+        "name":"Vue.JS",
+        "level":"60%"
+      },
+      {
+        "name":"React Native",
         "level":"70%"
+      },
+      {
+        "name":"OpenCV",
+        "level":"50%"
       },
       {
         "name":"ROS",
@@ -121,11 +149,19 @@
       },
       {
         "name":"C/C++",
-        "level":"75%"
+        "level":"60%"
       },
       {
         "name":"Java",
         "level":"70%"
+      },
+      {
+        "name":"Kotlin",
+        "level":"60%"
+      },
+      {
+        "name":"Javascript",
+        "level":"75%"
       },
       {
         "name":"Python",
