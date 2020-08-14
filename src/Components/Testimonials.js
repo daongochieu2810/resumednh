@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Testimonials extends Component {
   render() {
-
+   this.props.data = JSON.parse(require('../../public/resumeData.json'))
     if(this.props.data){
       var testimonials = this.props.data.testimonials.map(function(testimonials){
         return  <li key={testimonials.user}>

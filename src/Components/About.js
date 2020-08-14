@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class About extends Component {
   render() {
-
+   this.props.data = JSON.parse(require('../../public/resumeData.json'))
     if(this.props.data){
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
