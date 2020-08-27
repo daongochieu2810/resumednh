@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "https://daongochieu2810.github.io/resumednh/",
   "dependencies": {
+    "@brainhubeu/react-carousel": "^1.19.26",
     "jquery": "^3.2.1",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^2.3.5",

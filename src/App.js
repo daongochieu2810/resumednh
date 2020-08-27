@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
-import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
+import Certificate from './Components/Certificates';
 
 import Testimonials from './Components/Testimonials';
 
@@ -41,6 +41,7 @@ class App extends Component {
 
   componentDidMount(){
     this.getResumeData();
+    //console.log(this.resumeData)
   }
 
   render() {
@@ -49,6 +50,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
+        <Certificate data={this.state.resumeData.certificate}/>
        
         <Testimonials data={this.state.resumeData.testimonials}/>
         

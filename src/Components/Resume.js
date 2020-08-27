@@ -53,12 +53,12 @@ class Resume extends Component {
                 Link to Website
               </a>
             ) : null}
-            {project.name == "NUSocial Mobile Application" ? (
+            {project.name == "NUSocial Android Application" ? (
               <a href={project.link} target="_blank">
-                Link to App
+                Link to App APK
               </a>
             ) : null}
-            {project.name == "3D Geometry Mobile Application" ? (
+            {project.name == "3D Geometry Mobile Application (cross-platform)" ? (
               <a href={project.link} target="_blank">
                 Link to Github Repo
               </a>
