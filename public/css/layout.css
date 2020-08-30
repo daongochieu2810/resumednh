@@ -289,20 +289,20 @@ ul#nav li.current a { color: #F06000; }
 	width: 95%;
 	float: left;
 	padding: 0;
-	text-align: left;
+   text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
-   list-style: none;
+   margin: 0 auto;
+   max-width: 1000px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+   grid-auto-rows: auto;
+   gap: 20px;
+   font-family: sans-serif;
+   padding-top: 30px;
 }
-.bars li {
-   position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
-}
-.bars li em {
+
+.bars div em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
@@ -311,19 +311,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
 	top: -36px;
 }
-.bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
 
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
-   display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
-}
 /*
 .git {
   	-moz-animation: git 2s ease;

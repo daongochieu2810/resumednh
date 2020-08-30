@@ -132,42 +132,22 @@
         "level":"70%"
       },
       {
-        "name":"OpenCV",
-        "level":"50%"
-      },
-      {
-        "name":"ROS",
-        "level":"50%"
-      },
-      {
-        "name":"C/C++",
-        "level":"60%"
-      },
-      {
         "name":"Java",
         "level":"70%"
-      },
-      {
-        "name":"Kotlin",
-        "level":"60%"
       },
       {
         "name":"Javascript",
         "level":"75%"
       },
       {
-        "name":"Python",
-        "level":"50%"
+        "name":"JavaFX",
+        "level":"75%"
       }
     ],
     "soft":[
       {
         "name":"Language",
-        "description":"English (8.0 IELTS), Vietnamese (Native)."
-      },
-      {
-        "name":"Music",
-        "description":"Guitarist for the Vietnam Community in NUS, performed in various events."
+        "description":"English (Working efficiency), Vietnamese (Native)."
       }
     ]
   },
