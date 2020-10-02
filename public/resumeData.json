@@ -1,149 +1,149 @@
- {
+{
   "main": {
-    "name":"Dao Ngoc Hieu",
-    "occupation":"Computer Science Undergraduate",
-    "description":"Also a Software Developer",
-    "image":"profilepic.jpg",
-    "bio":"I am a Computer Science student at the National University of Singapore. I am also a software developer with experience in building websites and mobile applications. Additionally, I am working as a student tutor for School of Computing, NUS.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "name": "Dao Ngoc Hieu",
+    "occupation": "Computer Science Undergraduate",
+    "description": "Also a Software Developer",
+    "image": "profilepic.jpg",
+    "bio": "I am a Computer Science student at the National University of Singapore. I am also a software developer with experience in building websites and mobile applications.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "dnh2810@comp.nus.edu.sg",
-    "phone": "(+65) 98815584",
-    "address":{
-      "street":"Prince George's Park",
-      "city":"Singapore,",
-      "state":"Singapore",
+    "phone": "(+65) 98996182",
+    "address": {
+      "street": "Prince George's Park",
+      "city": "Singapore,",
+      "state": "Singapore",
       "zip": "118429"
     },
-    "social":[
+    "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/hieu-dao-ngoc-787554191/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/hieu-dao-ngoc-787554191/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"https://github.com/daongochieu2810",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/daongochieu2810",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"",
-    "education":[
+  "resume": {
+    "skillmessage": "",
+    "education": [
       {
-        "school":"National University of Singapore",
-        "degree":"Bachelor of Computing in Computer Science",
-        "graduated":"Aug 2019 - May 2023",
-        "description":"CAP: 4.86/5.0. Expect Honours with Highest Distinction"
+        "school": "National University of Singapore",
+        "degree": "Bachelor of Computing in Computer Science",
+        "graduated": "Aug 2019 - May 2023",
+        "description": "CAP: 4.86/5.0. Expect Honours with Highest Distinction"
       },
       {
-        "school":"High School for Gifted Students - Hanoi National University, University of Education",
-        "degree":"Informatics",
-        "graduated":"Sep 2016 - May 2019",
-        "description":"Achieved a total score of 27.8/30 on the National University Entrance Exam"
+        "school": "High School for Gifted Students - Hanoi National University, University of Education",
+        "degree": "Informatics",
+        "graduated": "Sep 2016 - May 2019",
+        "description": "Achieved a total score of 27.8/30 on the National University Entrance Exam"
       }
     ],
-    "achievments":[
+    "achievments": [
       {
-        "name":"Award of Nancy Tan Siew Lan Bursary",
-        "title":"Singapore",
-        "years":"Aug 2019",
-        "description":"Awarded for good academic results"
+        "name": "Award of Nancy Tan Siew Lan Bursary",
+        "title": "Singapore",
+        "years": "Aug 2019",
+        "description": "Awarded for good academic results"
       },
       {
-        "name":"Second Prize in Science Olympiad at State Level",
-        "title":"Vietnam",
-        "years":"Nov 2014",
-        "description":""
+        "name": "Second Prize in Science Olympiad at State Level",
+        "title": "Vietnam",
+        "years": "Nov 2014",
+        "description": ""
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"The Hornet 5.0",
-        "title":"Computer Vision Engineer",
-        "years":"Aug 2019 - May 2020",
-        "description":"Create programs for calculating direction and velocity of underwater vehicles used in competitions such as SAUVC, RoboSub and RoboX."
+        "company": "The Hornet 5.0",
+        "title": "Computer Vision Engineer Intern",
+        "years": "Aug 2019 - May 2020",
+        "description": "Create programs for calculating direction and velocity of underwater vehicles used in competitions such as SAUVC, RoboSub and RoboX."
       },
       {
-        "company":"AdviseLah!",
-        "title":"English Language Tutor",
-        "years":"Aug 2019 - July 2020",
-        "description":"Developed schedules for 6 fellow tutors 3 hours per week and summarized student progress reports. Clarified questions concerning University Entrance Exam and assisted Vietnamese students throughout application and learning process for NUS’s University Entrance Exam."
+        "company": "Waffle Technologies",
+        "title": "Software Engineer Intern",
+        "years": "Sep 2020 - Now",
+        "description": "Developed a dashboard website and a mobile applicationa and worked on both backend (PostgreSQL), frontend (React) and API (REST and GraphQL) for the company's application."
       },
       {
-        "company":"Student Tutor, School of Computing, NUS",
-        "title":"Student Tutor for CS1010 Programming Methodology",
-        "years":"Aug 2020 - December 2020",
-        "description":"Carried out labs and tutorials, graded assignments as well as provided weekly consultations for students taking CS1010."
+        "company": "School of Computing, NUS",
+        "title": "Student Tutor",
+        "years": "Aug 2020 - December 2020",
+        "description": "Carried out labs and tutorials, graded assignments as well as provided weekly consultations for students taking CS1010 Programming Methodology."
       }
     ],
-    "projects":[
+    "projects": [
       {
-        "name":"I'm the Best Coder, Shopee",
-        "title":"Team Freshie Frenzy",
-        "years":"Oct 2019",
-        "description":"Ranked 24/210. The first 50 teams are visible on the leaderboard. Implemented a program written in Python to detect frauds in selling posts. These frauds include fake reviews and descriptions.",
+        "name": "I'm the Best Coder, Shopee",
+        "title": "Team Freshie Frenzy",
+        "years": "Oct 2019",
+        "description": "Ranked 24/210. The first 50 teams are visible on the leaderboard. Implemented a program written in Python to detect frauds in selling posts. These frauds include fake reviews and descriptions.",
         "link": "https://www.kaggle.com/c/ungrd-rd2-auo/leaderboard"
       },
       {
-        "name":"Hack&Roll 2020, NUS Hackers",
-        "title":"Team EliteVision",
-        "years":"Jan 2020",
-        "description":"Created a program that analysed CCTV footage to monitor traffic condition and detect illegal vehicles. The application also provides heatmap indicating places with dense amount of traffic and illegal vehicles.",
+        "name": "Hack&Roll 2020, NUS Hackers",
+        "title": "Team EliteVision",
+        "years": "Jan 2020",
+        "description": "Created a program that analysed CCTV footage to monitor traffic condition and detect illegal vehicles. The application also provides heatmap indicating places with dense amount of traffic and illegal vehicles.",
         "link": "https://github.com/daongochieu2810/hackRoll2020"
       },
       {
-        "name":"Build On, Singapore!, AWS Hackathon",
-        "title":"YeeHaw",
-        "years":"Sep 2019",
-        "description":"Qualified as a finalist team. Showed innovative ideas to solve the crowded bus problem in NUS. By using an application that formulate routes for students based on their schedule together with efficiently assign buses to crowded locations, the average waiting time for buses is significantly reduced.",
+        "name": "Build On, Singapore!, AWS Hackathon",
+        "title": "YeeHaw",
+        "years": "Sep 2019",
+        "description": "Qualified as a finalist team. Showed innovative ideas to solve the crowded bus problem in NUS. By using an application that formulate routes for students based on their schedule together with efficiently assign buses to crowded locations, the average waiting time for buses is significantly reduced.",
         "link": ""
       },
       {
-        "name":"NUSocial Android Application",
-        "title":"Orbital 2020, School of Computing, NUS",
-        "years":"May 2020 - Aug 2020",
+        "name": "NUSocial Android Application",
+        "title": "Orbital 2020, School of Computing, NUS",
+        "years": "May 2020 - Aug 2020",
         "description": "An Artemis-level project built under the Orbital progamme. It serves as a platform for academic and social life of NUS students with features such as Buddy Matching, Location-based Broadcasting and other social media features (posting, messaging). The app comes with a web admin for communities' admins to monitor activities.",
         "link": "https://drive.google.com/file/d/1-kyqT-T4XP501JHiTm6yxbjZozecLtSQ/view?usp=sharing"
       },
       {
-        "name":"3D Geometry Mobile Application (cross-platform)",
-        "title":"Personal Project",
-        "years":"Aug 2020 - Present",
+        "name": "3D Geometry Mobile Application (cross-platform)",
+        "title": "Personal Project",
+        "years": "Aug 2020 - Present",
         "description": "A visualization tool for 3D geometry and modeling. The app allows users to create various shapes such as box, cone, sphere, octahedron, prism as well as custom shapes by connecting points. Users can also save created shapes and sync it with their online account. This app is built using Three.js and React Native.",
         "link": "https://github.com/daongochieu2810/geometry_3d"
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Firebase",
-        "level":"70%"
+        "name": "Firebase",
+        "level": "70%"
       },
       {
-        "name":"React.JS",
-        "level":"60%"
+        "name": "React.JS",
+        "level": "60%"
       },
       {
-        "name":"Vue.JS",
-        "level":"60%"
+        "name": "Vue.JS",
+        "level": "60%"
       },
       {
-        "name":"React Native",
-        "level":"70%"
+        "name": "React Native",
+        "level": "70%"
       },
       {
-        "name":"Java",
-        "level":"70%"
+        "name": "Java",
+        "level": "70%"
       },
       {
-        "name":"Javascript",
-        "level":"75%"
+        "name": "Javascript",
+        "level": "75%"
       }
     ],
-    "soft":[
+    "soft": [
       {
-        "name":"Language",
-        "description":"English (Working efficiency), Vietnamese (Native)."
+        "name": "Language",
+        "description": "English (Working efficiency), Vietnamese (Native)."
       }
     ]
   },
@@ -151,17 +151,17 @@
     "certificate": [
       {
         "file": "artemis.png",
-         "name": "Artemis",
-         "description": "   "
+        "name": "Artemis",
+        "description": "   "
       }
     ]
   },
 
-  "testimonials":{
-    "testimonials":[
+  "testimonials": {
+    "testimonials": [
       {
-        "text":"Failure is an option here. If things are not failing, you are not innovating enough",
-        "user":"Elon Musk"
+        "text": "Failure is an option here. If things are not failing, you are not innovating enough",
+        "user": "Elon Musk"
       }
     ]
   }
