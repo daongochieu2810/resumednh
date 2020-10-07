@@ -152,7 +152,32 @@
       {
         "file": "artemis.png",
         "name": "Artemis",
-        "description": "   "
+        "description": "   ",
+        "width":"20%"
+      },
+      {
+        "file": "problemsolving.png",
+        "name": "Problem Solving",
+        "description": "   ",
+        "width": "40%"
+      },
+      {
+        "file": "react.png",
+        "name": "React",
+        "description": "   ",
+        "width": "40%"
+      },
+      {
+        "file": "restapi.png",
+        "name": "REST API",
+        "description": "   ",
+        "width": "40%"
+      },
+      {
+        "file": "javascript.png",
+        "name": "Javascript",
+        "description": "   ",
+        "width": "40%"
       }
     ]
   },
