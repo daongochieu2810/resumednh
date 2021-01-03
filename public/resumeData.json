@@ -34,7 +34,7 @@
         "school": "National University of Singapore",
         "degree": "Bachelor of Computing in Computer Science",
         "graduated": "Aug 2019 - May 2023",
-        "description": "CAP: 4.86/5.0. Expect Honours with Highest Distinction"
+        "description": "CAP: 4.58/5.0. Expect Honours with Highest Distinction"
       },
       {
         "school": "High School for Gifted Students - Hanoi National University, University of Education",
@@ -62,56 +62,43 @@
         "company": "The Hornet 5.0",
         "title": "Computer Vision Engineer Intern",
         "years": "Aug 2019 - May 2020",
-        "description": "Create programs for calculating direction and velocity of underwater vehicles used in competitions such as SAUVC, RoboSub and RoboX."
+        "description": "• Developed a program that provides the direction and velocity of the underwater vehicle based on input images coming from the vehicle’s downward camera. The program was written in C++ and OpenCV."
       },
       {
         "company": "Waffle Technologies",
         "title": "Software Engineer Intern",
         "years": "Sep 2020 - Now",
-        "description": "Developed a dashboard website and a mobile applicationa and worked on both backend (PostgreSQL), frontend (React) and API (REST and GraphQL) for the company's application."
+        "description": "• Developed point of sale applications including a dashboard website and a React Native mobile app\n• Worked on both back-end (PostgreSQL) and front-end (React, React Native) for the company’s applications\n• Lead developer of the back-end and APIs for the company’s loyalty system"
       },
       {
         "company": "School of Computing, NUS",
         "title": "Student Tutor",
         "years": "Aug 2020 - December 2020",
-        "description": "Carried out labs and tutorials, graded assignments as well as provided weekly consultations for students taking CS1010 Programming Methodology."
+        "description": "• Student tutor for CS1010 Programming Methodology under Professor Ooi Wei Tsang, NUS School of Computing\n• Organized tutorials and labs for 9 students, graded their assignments and provided additional consultation\n• Clarified questions concerning programming methodology in C, basic UNIX-related concepts and practices"
       }
     ],
     "projects": [
       {
-        "name": "I'm the Best Coder, Shopee",
-        "title": "Team Freshie Frenzy",
-        "years": "Oct 2019",
-        "description": "Ranked 24/210. The first 50 teams are visible on the leaderboard. Implemented a program written in Python to detect frauds in selling posts. These frauds include fake reviews and descriptions.",
-        "link": "https://www.kaggle.com/c/ungrd-rd2-auo/leaderboard"
-      },
-      {
-        "name": "Hack&Roll 2020, NUS Hackers",
-        "title": "Team EliteVision",
-        "years": "Jan 2020",
-        "description": "Created a program that analysed CCTV footage to monitor traffic condition and detect illegal vehicles. The application also provides heatmap indicating places with dense amount of traffic and illegal vehicles.",
-        "link": "https://github.com/daongochieu2810/hackRoll2020"
-      },
-      {
-        "name": "Build On, Singapore!, AWS Hackathon",
-        "title": "YeeHaw",
-        "years": "Sep 2019",
-        "description": "Qualified as a finalist team. Showed innovative ideas to solve the crowded bus problem in NUS. By using an application that formulate routes for students based on their schedule together with efficiently assign buses to crowded locations, the average waiting time for buses is significantly reduced.",
-        "link": ""
+        "name": "3D Geometry Mobile Application (cross-platform)",
+        "title": "Personal Project",
+        "years": "Aug 2020 - Present",
+        "description": "• A 3D Geometry visualization application that aims to help students in 3d geometry problems\n• The app was build using React Native and three.js. All 3D objects were created using BufferGeometry, which is more difficult to use but gives better performance",
+        "link": "https://github.com/daongochieu2810/geometry_3d",
+        "list": "https://www.algoexpert.io/swe-project-contests/2020-summer"
       },
       {
         "name": "NUSocial Android Application",
         "title": "Orbital 2020, School of Computing, NUS",
         "years": "May 2020 - Aug 2020",
-        "description": "An Artemis-level project built under the Orbital progamme. It serves as a platform for academic and social life of NUS students with features such as Buddy Matching, Location-based Broadcasting and other social media features (posting, messaging). The app comes with a web admin for communities' admins to monitor activities.",
+        "description": "• A social media application exclusively built for NUS students. Highlight features are buddy matching and location-based broadcasting. The app also provides social media functionality such as messaging, posting and forming communities. An admin web is provided for community admins\n• This project reached Artemis Tier (Extreme) of the Orbital 2020 Programme",
         "link": "https://drive.google.com/file/d/1-kyqT-T4XP501JHiTm6yxbjZozecLtSQ/view?usp=sharing"
       },
       {
-        "name": "3D Geometry Mobile Application (cross-platform)",
-        "title": "Personal Project",
-        "years": "Aug 2020 - Present",
-        "description": "A visualization tool for 3D geometry and modeling. The app allows users to create various shapes such as box, cone, sphere, octahedron, prism as well as custom shapes by connecting points. Users can also save created shapes and sync it with their online account. This app is built using Three.js and React Native.",
-        "link": "https://github.com/daongochieu2810/geometry_3d"
+        "name": "I'm the Best Coder, Shopee",
+        "title": "Team Freshie Frenzy",
+        "years": "Oct 2019",
+        "description": "• Ranked 24/210. The first 50 teams are visible on the leaderboard\n• Implemented a program written in Python to detect frauds in selling posts. These frauds include fake reviews and descriptions.",
+        "link": "https://www.kaggle.com/c/ungrd-rd2-auo/leaderboard"
       }
     ],
     "skills": [

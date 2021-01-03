@@ -59,9 +59,15 @@ class Resume extends Component {
               </a>
             ) : null}
             {project.name == "3D Geometry Mobile Application (cross-platform)" ? (
+              <div>
               <a href={project.link} target="_blank">
                 Link to Github Repo
               </a>
+              <br />
+              <a href={project.list} target="_blank">
+              Honourable Mention (AlgoExpert 2020 Summer-Fall SWE Competition)
+            </a>
+            </div>
             ) : null}
             <br></br>
             <br></br>
